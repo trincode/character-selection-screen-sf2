@@ -1,5 +1,5 @@
 body {
-    font-family: 'Retro Gaming', sans-serif;
+    font-family: 'Super Street Fighter II', sans-serif;
     font-size: 62.5%;
     background-color: #858383;
     color: #ffffff;
@@ -14,6 +14,7 @@ body::before {
     width: 100%;
     height: 100%;
     opacity: 0.2;
+    z-index: -1;
 }
 
 .character-selection {
@@ -24,8 +25,10 @@ body::before {
 }
 
 .header .title {
-    color: #faefd8;
-    font-size: 4rem;
-    line-height: 4rem;
-    -webkit-text-stroke: 2px #f77a2c;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 3%, rgba(242,255,77,1) 14%, rgba(241,209,0,1) 31%, rgba(244,165,0,1) 58%, rgba(247,124,0,1) 75%, rgba(255,0,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    line-height: 3rem;
 }
