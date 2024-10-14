@@ -1,9 +1,31 @@
-@font-face {
-    font-family: 'Super Street Fighter II';
-    src: url(../fonts/super-street-fighter-ii.ttf);
-    src: url(../fonts/super-street-fighter-ii.otf);
+body {
+    font-family: 'Retro Gaming', sans-serif;
+    font-size: 62.5%;
+    background-color: #858383;
+    color: #ffffff;
 }
 
-body {
-    
+body::before {
+    content: '';
+    background-image: url('../images/world-map-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.character-selection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .title {
+    color: #faefd8;
+    font-size: 4rem;
+    line-height: 4rem;
+    -webkit-text-stroke: 2px #f77a2c;
 }
