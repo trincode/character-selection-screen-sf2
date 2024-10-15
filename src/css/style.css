@@ -1,54 +1,51 @@
 body {
-    font-family: 'Super Street Fighter II', sans-serif;
+    font-family: 'SSFII', sans-serif;
     font-size: 62.5%;
-    background-color: #858383;
+    background-color: #5a5a5a;
     color: #ffffff;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 body::before {
     content: '';
-    background-image: url('../images/world-map-bg.png');
+    background-image: url(../images/world-map-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    z-index: -1;
 }
 
 .header {
-    margin: 0 auto;
-    max-width: 1280px;
-    height: 20vh;
+    z-index: 1;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    align-items: center;
 }
 
 .header .title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
     background-image: linear-gradient(180deg, rgba(255,255,255,1) 3%, rgba(242,255,77,1) 14%, rgba(241,209,0,1) 31%, rgba(244,165,0,1) 58%, rgba(247,124,0,1) 75%, rgba(255,0,0,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    margin: 0 40px;
 }
 
 .character-selection {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
 }
 
 .character-selection .big-character {
     text-align: center;
     width: 30%;
-    height: 30vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -57,9 +54,14 @@ body::before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-height: 100%;
 }
 
+.character-selection .big-character .name h2 {
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    font-size: 3rem;
+}
 
 .character-selection .big-character .name::before {
     content: '';
@@ -70,18 +72,10 @@ body::before {
     left: 0;
 }
 
-.character-selection .big-character .name h2 {
-    color: green;
-    position: absolute;
-    bottom: -15px;
-    width: 100%;
-    font-size: 2.5rem;
-}
-
 .character-selection .big-character.player1 .name::before {
-    background-color: royalblue;
+    background-color: blue;
 }
 
 .character-selection .big-character.player2 .name::before {
-    background-color: tomato;
+    background-color: red;
 }
