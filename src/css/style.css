@@ -49,27 +49,20 @@ body::before {
     position: relative;
 }
 
-.character-selection .big-character img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .character-selection .big-character .name h2 {
     position: absolute;
-    bottom: 0;
+    top: -40px;
     width: 100%;
     font-size: 3rem;
 }
 
-.character-selection .big-character .name::before {
-    content: '';
-    height: 30px;
-    width: 100%;
+.character-selection .big-character img {
     position: absolute;
-    bottom: -15px;
-    left: 0;
+    top: 50%;
+    /* left: 50%; */
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .character-selection .big-character.player1 .name::before {
