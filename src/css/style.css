@@ -3,21 +3,24 @@ body {
     font-size: 62.5%;
     background-color: #5a5a5a;
     color: #ffffff;
-    height: 90vh;
+    height: 100vh;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-body::before {
-    content: '';
-    background-image: url(../images/world-map-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
+.bg-world-map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.bg-world-map img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
 
 .header {

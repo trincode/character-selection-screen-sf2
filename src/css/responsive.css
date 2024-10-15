@@ -20,9 +20,9 @@
         justify-content: start;
     }
 
-    body::before {
+    /* body::before {
         background-color: black;
-    }
+    } */
 
     .header .title {
         font-size: 3rem;
