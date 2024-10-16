@@ -1,42 +1,136 @@
-@media(max-width: 767px) {
-    .header .title {
-        font-size: 3.5rem;
-        line-height: 3.5rem;
+@media(max-width: 1190px) {
+    .character-selection .big-character .name h2 {
+        top: 0px;
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width: 1080px) {
+    .character-selection .big-character .name h2 {
+        top: 40px;
+        font-size: 2.5rem;
     }
 
     .character-selection .characters-list {
-        max-width: 330px;
+        width: 380px;
     }
-
+    
     .character-selection .characters-list .character {
-        width: 100px;
-        height: 100px;
+        height: 90px;
     }
 }
 
-@media(max-width: 525px) {
+@media(max-width: 970px) {
+    .character-selection .big-character {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    
+    .character-selection .big-character .name h2 {
+        top: 80px;
+        font-size: 2.2rem;
+    }
+    
+    .character-selection .characters-list {
+        max-width: 380px;
+        gap: 5px;
+        flex-grow: 1;
+    }
+    
+    .character-selection .characters-list .character {
+        flex-shrink: 1;
+    }
+}
+
+@media(max-width: 850px) {
+    .character-selection .big-character .name h2 {
+        top: 120px;
+        font-size: 1.9rem;
+    }
+}
+
+@media(max-width: 760px) {
     body {
-        padding: 0 5px;
-        justify-content: start;
+        height: 100vh;
+        justify-content: flex-start;
+        overflow-x: hidden;
+        gap: 200px;
     }
 
-    /* body::before {
-        background-color: black;
-    } */
-
-    .header .title {
-        font-size: 3rem;
-        line-height: 3rem;
+    .header {
+        margin-top: 50px;
     }
-}
-
-@media(max-width: 360px) {
+    
     .header .title {
         font-size: 2.8rem;
         line-height: 2.8rem;
     }
 
+    .character-selection {
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+    }
+
     .character-selection .big-character {
+        top: 20px;
+        width: 230px;
+    }
+
+    .character-selection .big-character .name h2{
+        top: -10px;
+    }
+
+    .character-selection .characters-list {
+        max-width: 300px;
+        gap: 5px;
+        flex-grow: 1;
+    }
+    
+    .character-selection .characters-list .character {
+        height: 70px;
+        gap: 5px;
+    }
+    
+    .character-selection .big-character.player2 {
         display: none;
     }
+}
+
+@media(max-width: 663px) {
+    body {
+        height: auto;
+        gap: 199px;
+    }
+
+    .character-selection .big-character .name h2 {
+        top: -10px;
+        font-size: 1.6rem;
+    }
+
+    .character-selection .characters-list {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 621.82px) {
+    body {
+        height: auto;
+        gap: 180px;
+    }
+
+    .header .title {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+}
+
+@media(max-width: 360px) {
+    .header .title {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
 }
