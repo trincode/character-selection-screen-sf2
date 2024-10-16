@@ -3,12 +3,20 @@
         top: 0px;
         font-size: 2.8rem;
     }
+
+    .character-selection .big-character .name h3 {
+        margin-top: -40px;
+    }
 }
 
 @media(max-width: 1080px) {
     .character-selection .big-character .name h2 {
         top: 40px;
         font-size: 2.5rem;
+    }
+
+    .character-selection .big-character .name h3 {
+        margin-top: 0px;
     }
 
     .character-selection .characters-list {
@@ -30,6 +38,10 @@
         top: 80px;
         font-size: 2.2rem;
     }
+
+    .character-selection .big-character .name h3 {
+        margin-top: 40px;
+    }
     
     .character-selection .characters-list {
         max-width: 384px;
@@ -45,6 +57,10 @@
     .character-selection .big-character .name h2 {
         top: 120px;
         font-size: 1.9rem;
+    }
+
+    .character-selection .big-character .name h3 {
+        margin-top: 80px;
     }
 }
 
@@ -80,6 +96,10 @@
         top: 10px;
     }
 
+    .character-selection .big-character .name h3 {
+        margin-top: -40px;
+    }
+
     .character-selection .characters-list {
         max-width: 300px;
         gap: 5px;
@@ -101,6 +121,11 @@
     .character-selection .big-character .name h2 {
         top: 10px;
         font-size: 1.6rem;
+    }
+
+    .character-selection .big-character .name h3 {
+        margin-top: -40px;
+        font-size: ;
     }
 }
 
