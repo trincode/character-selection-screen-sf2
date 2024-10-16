@@ -11,7 +11,7 @@ Continuing my studies on html and css, I did this player selection screen websit
 ### 🖼 Printscreens
 
   <img src="./design/sf2-overview-1.png" width="900"><img src="./design/sf2-overview-2.png" width="568">
-  <img src="./design/sf2-overview-3.png" width="300">
+  <img src="./design/sf2-overview-3.png" width="290">
 
 ### 🖇️ Links
 
