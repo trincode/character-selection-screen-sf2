@@ -81,16 +81,16 @@ body {
 .character-selection .characters-list {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 500px;
     justify-content: center;
-    gap: 12px;
+    gap: 5px;
 }
 
 .character-selection .characters-list .character {
     border: 2px solid #ffffff;
     background-color: white;
-    width: 30%;
-    height: 160px;
+    width: 20%;
+    height: 100px;
     cursor: pointer;
     z-index: 2;
     border-radius: 5px;
