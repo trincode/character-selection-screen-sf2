@@ -99,15 +99,10 @@
 }
 
 @media(max-width: 663px) {
-
     .character-selection .big-character .name h2 {
         top: -10px;
         font-size: 1.6rem;
     }
-
-    .character-selection .characters-list {
-    }
-
 }
 
 @media(max-width: 621.82px) {
