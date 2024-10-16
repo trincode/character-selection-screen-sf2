@@ -12,7 +12,7 @@
     }
 
     .character-selection .characters-list {
-        width: 380px;
+        width: 384px;
     }
     
     .character-selection .characters-list .character {
@@ -32,8 +32,7 @@
     }
     
     .character-selection .characters-list {
-        max-width: 380px;
-        gap: 5px;
+        max-width: 384px;
         flex-grow: 1;
     }
     
@@ -78,14 +77,14 @@
     }
 
     .character-selection .big-character .name h2{
-        top: -10px;
+        top: 10px;
     }
 
     .character-selection .characters-list {
         max-width: 300px;
         gap: 5px;
         flex-grow: 1;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     
     .character-selection .characters-list .character {
@@ -100,7 +99,7 @@
 
 @media(max-width: 663px) {
     .character-selection .big-character .name h2 {
-        top: -10px;
+        top: 10px;
         font-size: 1.6rem;
     }
 }
@@ -113,7 +112,7 @@
 }
 @media(max-width: 559.18px) {
     .character-selection {
-        margin-bottom: 27px;
+        margin-bottom: 0px;
     }
 }
 
