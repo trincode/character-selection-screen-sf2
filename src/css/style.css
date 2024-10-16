@@ -88,7 +88,6 @@ body {
 
 .character-selection .characters-list .character {
     border: 2px solid #ffffff;
-    background-color: white;
     height: 100px;
     cursor: pointer;
     z-index: 2;
