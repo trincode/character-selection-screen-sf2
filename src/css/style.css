@@ -70,6 +70,19 @@ body {
     font-size: 3rem;
 }
 
+.character-selection .big-character .name h3 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.character-selection .big-character.player1 .name h3 {
+    color: var(--light-blue);
+}
+
+.character-selection .big-character.player2 .name h3 {
+    color: var(--light-red);
+}
+
 .character-selection .characters-list {
     display: flex;
     flex-wrap: wrap;
