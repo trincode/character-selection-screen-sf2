@@ -1,5 +1,6 @@
+
 @keyframes c-glowing-blue {
-    0% {
+    from {
       box-shadow: 0 0 5px var(--light-blue), 0 0 5px var(--light-blue), 0 0 15px var(--light-blue), 0 0 20px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue)
     }
   

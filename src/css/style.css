@@ -103,17 +103,16 @@ body {
 
 .character-selection .characters-list .character.selected {
     border: 2px solid var(--medium-blue);
-    animation: c-glowing-blue 0.3s ease-in-out infinite;
+    animation: c-glowing-blue 0.7s ease-in-out infinite;
     animation-duration: alternate;
-
-}
-
-.character-selection .characters-list .character.selected img {
-    border-color:  var(--light-blue);
 }
 
 .character-selection .characters-list .character:hover {
     transform: scale(1.1);
+}
+
+.character-selection .characters-list .character.selected img {
+    border-color:  var(--light-blue);
 }
 
 .character-selection .characters-list .character img {
