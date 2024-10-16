@@ -1,6 +1,6 @@
 # Website – Character Selection Screen – Street Fighter II
 
-Continuing my studies on html and css, I did this player selection screen website based on the Street Fighter II: The World Warrior game. After another project finished, now I'm starting on JS' studies to add some functionalities on my already done projects.
+Continuing my studies on HTML and CSS, I did this player selection screen website based on the Street Fighter II: The World Warrior game. After another project finished, now I'm starting on JS' studies to add some functionalities on my already done projects.
 
 ## Overview
 
@@ -11,7 +11,7 @@ Continuing my studies on html and css, I did this player selection screen websit
 ### 🖼 Printscreens
 
   <img src="./design/sf2-overview-1.png" width="900"><img src="./design/sf2-overview-2.png" width="503">
-  <img src="./design/sf2-overview-3.png" width="245">
+  <img src="./design/sf2-overview-3.png" width="244">
 
 ### 🖇️ Links
 
