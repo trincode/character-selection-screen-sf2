@@ -39,6 +39,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: blinking 0.9s infinite;
 }
 
 .character-selection {
@@ -101,18 +102,8 @@ body {
     transition: 0.15s ease-in-out;
 }
 
-.character-selection .characters-list .character.selected {
-    border: 2px solid var(--medium-blue);
-    animation: c-glowing-blue 0.7s ease-in-out infinite;
-    animation-duration: alternate;
-}
-
 .character-selection .characters-list .character:hover {
     transform: scale(1.1);
-}
-
-.character-selection .characters-list .character.selected img {
-    border-color:  var(--light-blue);
 }
 
 .character-selection .characters-list .character img {
@@ -121,8 +112,22 @@ body {
     border-radius: 3px;
 }
 
+.character-selection .characters-list .character.selected {
+    border: 2px solid var(--medium-blue);
+    animation: c-glowing-blue 0.7s ease-in-out infinite;
+    animation-duration: alternate;
+}
+
 .character-selection .characters-list .character img {
     border: 3px solid var(--light-blue);
+}
+
+.character-selection .characters-list .character.player2-selected {
+    animation: c-glowing-red 0.7s ease-in-out infinite;
+    animation-duration: alternate;
+}
+.character-selection .characters-list .character.player2-selected img {
+    border: 3px solid var(--light-red);
 }
 
 .character-selection .characters-list .character .tag {
@@ -136,6 +141,14 @@ body {
     left: 5px;
 }
 
+.character-selection .characters-list .character.character.player2-selected .tag {
+    display: block;
+    animation: text-glowing-red 0.7s ease-in-out infinite;
+    animation-duration: alternate;
+}
+
 .character-selection .characters-list .character.selected .tag {
     display: block;
+    animation: text-glowing-blue 0.7s ease-in-out infinite;
+    animation-duration: alternate;
 }

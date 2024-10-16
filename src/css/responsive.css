@@ -26,6 +26,10 @@
     .character-selection .characters-list .character {
         height: 90px;
     }
+
+    .character-selection .characters-list .character .tag {
+        font-size: 1.2rem;
+    }
 }
 
 @media(max-width: 970px) {
@@ -114,6 +118,10 @@
     
     .character-selection .big-character.player2 {
         display: none;
+    }
+
+    .character-selection .characters-list .character .tag {
+        font-size: 0.8rem;
     }
 }
 
