@@ -1,0 +1,39 @@
+@keyframes c-glowing-blue {
+    0% {
+      box-shadow: 0 0 5px var(--light-blue), 0 0 5px var(--light-blue), 0 0 15px var(--light-blue), 0 0 20px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue), 0 0 10px var(--main-blue)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--light-blue), 0 0 2.5px var(--light-blue), 0 0 7.5px var(--light-blue), 0 0 10px var(--main-blue), 0 0 5px var(--main-blue), 0 0 5px var(--main-blue), 0 0 5px var(--main-blue), 0 0 2px var(--main-blue)
+    }
+  }
+  
+  @keyframes c-glowing-red {
+    0% {
+      box-shadow: 0 0 5px var(--light-red), 0 0 5px var(--light-red), 0 0 15px var(--light-red), 0 0 20px var(--main-red), 0 0 10px var(--main-red), 0 0 10px var(--main-red), 0 0 10px var(--main-red), 0 0 10px var(--main-red)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--main-red), 0 0 2.5px var(--main-red), 0 0 7.5px var(--main-red), 0 0 10px var(--main-red), 0 0 5px var(--main-red), 0 0 5px var(--main-red), 0 0 5px var(--main-red), 0 0 2px var(--main-red)
+    }
+  }
+  
+  @keyframes text-glowing-blue {
+    0% {
+      text-shadow: 0 0 1px var(--main-color), 0 0 1px var(--main-color), 0 0 1px var(--main-color), 0 0 1px var(--medium-blue), 0 0 5px var(--medium-blue), 0 0 2px var(--medium-blue), 0 0 10px var(--medium-blue), 0 0 10px var(--medium-blue)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--main-color), 0 0 .5px var(--main-color), 0 0 .5px var(--main-color), 0 0 .5px var(--medium-blue), 0 0 5px var(--medium-blue), 0 0 .5px var(--medium-blue), 0 0 5px var(--medium-blue), 0 0 2px var(--medium-blue)
+    }
+  }
+  
+  @keyframes text-glowing-red {
+    0% {
+      text-shadow: 0 0 1px var(--main-color), 0 0 1px var(--main-color), 0 0 1px var(--main-color), 0 0 1px var(--light-red), 0 0 5px var(--light-red), 0 0 2px var(--light-red), 0 0 10px var(--light-red), 0 0 10px var(--light-red)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--main-color), 0 0 .5px var(--main-color), 0 0 .5px var(--main-color), 0 0 .5px var(--light-red), 0 0 5px var(--light-red), 0 0 .5px var(--light-red), 0 0 5px var(--light-red), 0 0 2px var(--light-red)
+    }
+  }
